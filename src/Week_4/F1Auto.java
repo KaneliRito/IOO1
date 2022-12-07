@@ -29,6 +29,10 @@ public class F1Auto {
         this.basisSnelheid = basisSnelheid;
     }
 
+    public Coureur getCoureur() {
+        return coureur;
+    }
+
     public void setGeredenSnelheid(double geredenSnelheid) {
         this.geredenSnelheid = geredenSnelheid;
     }

@@ -14,11 +14,14 @@ public class Main {
 
         System.out.println(autoMax.getBasisSnelheid());
 
-        Baan zandvoort = new Baan("Zandvoort", 2);
+        Baan zandvoort = new Baan("Zandvoort", 3);
 
-        System.out.println(zandvoort.voegF1AutoToe(autoKevin));
-        System.out.println(zandvoort.voegF1AutoToe(autoLewis));
-        System.out.println(zandvoort.voegF1AutoToe(autoMax));
+        zandvoort.voegF1AutoToe(autoKevin);
+        zandvoort.voegF1AutoToe(autoLewis);
+        zandvoort.voegF1AutoToe(autoMax);
+        zandvoort.startRace();
+        zandvoort.bepaalWinnaar();
+
 
 
     }
